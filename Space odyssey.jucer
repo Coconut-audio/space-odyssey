@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <JUCERPROJECT id="UoaVF7" name="Space odyssey" projectType="audioplug" useAppConfig="0"
-              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1">
+              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1" companyName="Coconut Audio"
+              bundleIdentifier="com.CoconutAudio.Spaceodyssey" aaxIdentifier="com.CoconutAudio.Spaceodyssey"
+              pluginManufacturerCode="Coau">
   <MAINGROUP id="W1Z6gA" name="Space odyssey">
     <GROUP id="{ED8CBD41-FFCA-88F5-8F2F-EF2A280743F2}" name="Source">
+      <GROUP id="{C7700DF1-437C-A0FB-B834-285A75C058AD}" name="Assets">
+        <FILE id="p2WvG5" name="DotGothic16-Regular.ttf" compile="0" resource="1"
+              file="Source/Assets/DotGothic16-Regular.ttf"/>
+      </GROUP>
+      <FILE id="NJfcTv" name="VectorScope.cpp" compile="1" resource="0" file="Source/VectorScope.cpp"/>
+      <FILE id="j4xe8Y" name="VectorScope.h" compile="0" resource="0" file="Source/VectorScope.h"/>
       <FILE id="KPzaJN" name="PluginProcessor.cpp" compile="1" resource="0"
             file="Source/PluginProcessor.cpp"/>
       <FILE id="svFVDv" name="PluginProcessor.h" compile="0" resource="0"
@@ -11,6 +19,8 @@
       <FILE id="pIHtPc" name="PluginEditor.cpp" compile="1" resource="0"
             file="Source/PluginEditor.cpp"/>
       <FILE id="lVjEY5" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+      <FILE id="eVHURh" name="XyPad.cpp" compile="1" resource="0" file="Source/XyPad.cpp"/>
+      <FILE id="MOqhRG" name="XyPad.h" compile="0" resource="0" file="Source/XyPad.h"/>
     </GROUP>
   </MAINGROUP>
   <MODULES>

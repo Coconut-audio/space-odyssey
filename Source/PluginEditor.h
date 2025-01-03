@@ -10,6 +10,8 @@
 
 #include <JuceHeader.h>
 #include "PluginProcessor.h"
+#include "XyPad.h"
+#include "VectorScope.h"
 
 //==============================================================================
 /**
@@ -28,6 +30,10 @@ private:
     // This reference is provided as a quick way for your editor to
     // access the processor object that created it.
     SpaceodysseyAudioProcessor& audioProcessor;
+
+    // components
+    XyPad xyPad;
+    VectorScope vectorScope;
 
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (SpaceodysseyAudioProcessorEditor)
 };
